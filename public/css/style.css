@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal; 
+    color: #fff;
+    font-family: 'Delicious Handrawn', sans-serif;
+}    
+    
+.logo { 
+    font-size: 32px; 
+}

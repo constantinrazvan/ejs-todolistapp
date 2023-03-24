@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>New To Do</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../public/css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <nav className="navbar">
+            <div className="logo">MyTodos</div>
+        </nav>
+       <h1> New To Do</h1>
+
+       <form action="/createnewtodo" method="POST">
+            <input type="text" name="todoTitle" placeholder="Title" required/>
+            <input type="date" name="todoDate" data-date="" data-date-format="DD MMMM YYYY" value="2023-01-01">
+            <button type="submit">CREATE NEW TO DO</button>
+       </form>
+    </body>
+</html>
